@@ -1,5 +1,0 @@
-https://glebbahmutov.com/blog/how-to-correctly-unit-test-express-server/
-https://scotch.io/tutorials/test-a-node-restful-api-with-mocha-and-chai
-http://willi.am/blog/2014/07/28/test-your-api-with-supertest/
-https://www.codementor.io/nodejs/tutorial/unit-testing-nodejs-tdd-mocha-sinon
-http://mherman.org/blog/2015/09/10/testing-node-js-with-mocha-and-chai/#.V-GftfkrJhF
