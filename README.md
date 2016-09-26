@@ -7,13 +7,8 @@ To get this project working from a virgin Windows Machine perform the following 
 Go to https://nodejs.org/en/download/ and download the appropriate version for the Windows Version (32/64 bit)
 This app has been tested with Node JS Version v6.6.0
 
-
-## Install Gulp
-Open a command prompt (I'd recommend installing [ConsoleZ](https://github.com/cbucher/console/wiki/Downloads) )
-From the command prompt (in any folder) use npm to install gulp globally:<br>
-**C:>npm install -g gulp**
-
 ## Establish Node Path environment variable
+Open a command prompt (I'd recommend installing [ConsoleZ](https://github.com/cbucher/console/wiki/Downloads) )
 - Create an environmental variable called NODE_PATH
 - Set it to: %AppData%\npm\node_modules
 - Close CMD, and Re-Open to get the new ENV variables
@@ -23,8 +18,10 @@ From the command prompt (in the project folder) use npm to install the project d
 **C:\My_New_Project>npm install**
 
 ##Run gulp
-From the command prompt (in the project folder) run the gulp command
-**C:\My_New_Project>gulp**
+From the command prompt (in the project folder) use npm to run the gulp command
+**C:\My_New_Project>npm run gulp**
+
+You can use `npm run` to find a list of other tasks to run, such as `npm start` which spins up the server or `npm run lint` to run the code linter.
 
 ##Execute various tasks
 [14:19:04] Using gulpfile C:\My_New_Project\gulpfile.js<br>
