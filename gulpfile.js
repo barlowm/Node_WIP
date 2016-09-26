@@ -196,8 +196,8 @@ gulp.task("logging", function(){
     logging(); 
 });
 
-gulp.task("post", function(done = function() {console.log("Done?")}){ 
-    PostWithData(done); 
+gulp.task("post", function(){
+    PostWithData();
 });
 
 gulp.task("postND", function(){ 
