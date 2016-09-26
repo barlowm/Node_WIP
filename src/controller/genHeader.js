@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = {
     genHeader : function (headerInfo) {
         let Version = headerInfo.ver;   // Version = 4 bits from 0 - 15, 10 = 1010

@@ -1,3 +1,5 @@
+"use strict";
+
 // tests/test2.js
 // let chai = require('chai');
 // let chaiHttp = require('chai-http');

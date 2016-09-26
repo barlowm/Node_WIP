@@ -1,3 +1,5 @@
+"use strict";
+
 const gulp = require("gulp");
 const request = require("request");
 const inquirer = require("inquirer");
@@ -194,8 +196,8 @@ gulp.task("logging", function(){
     logging(); 
 });
 
-gulp.task("post", function(done = function() {console.log("Done?")}){ 
-    PostWithData(done); 
+gulp.task("post", function(){
+    PostWithData();
 });
 
 gulp.task("postND", function(){ 
