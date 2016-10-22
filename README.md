@@ -5,7 +5,7 @@ It uses NodeJS, Express, Gulp and various tools for building (Gulp), Static Code
 To get this project working from a virgin Windows Machine perform the following steps:
 ##Install Node.JS - 
 Go to https://nodejs.org/en/download/ and download the appropriate version for the Windows Version (32/64 bit)
-This app has been tested with Node JS Version v6.6.0
+This app has been tested with Node JS Version v6.6.0. Though for current development projects I'm "forced" to use Node JS Version V4.x :( .
 
 ## Establish Node Path environment variable
 Open a command prompt (I'd recommend installing [ConsoleZ](https://github.com/cbucher/console/wiki/Downloads) )
